@@ -30,7 +30,7 @@ $ cd Mahin
 $ chmod +x Mahin.py 
 $ python Mahin.py
 
-Note: (This Tools Are Paid, So You Need Permission To Use Niki Luxury Tools Enjoy)
+Note: (This Tool is free so let's enjoy)
 
 
 
