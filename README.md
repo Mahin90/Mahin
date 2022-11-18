@@ -1,6 +1,6 @@
 # Ultra pro cloning. 
  <br>[![Github](https://img.shields.io/badge/Github-Mahin90-dimgray?style=flat-square&logo=github)](https://github.com/Mahin90)
-[![Facebook](https://img.shields.io/badge/Facebook-Mr.NIKI-blue?style=flat-square&logo=facebook)](https://www.facebook.com/mgggjuc)
+[![Facebook](https://img.shields.io/badge/Facebook-mgggjuc-blue?style=flat-square&logo=facebook)](https://www.facebook.com/mgggjuc)
 
 <h1 align="center"> ERROR PROBLEM FIXED </h1>
 
@@ -25,8 +25,9 @@ $ pip install mechanize
 $ pip install bs4
 $ pip install rich
 $ pkg install git
-$ git clone https://github.com/Niki404-Cyber/Luxury
+$ git clone https://github.com/Mahin90/Mahin.git
 $ cd Mahin
+$ chmod +x Mahin.py 
 $ python Mahin.py
 
 Note: (This Tools Are Paid, So You Need Permission To Use Niki Luxury Tools Enjoy)
