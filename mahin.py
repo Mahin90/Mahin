@@ -26,6 +26,7 @@ import platform
 import base64
 import subprocess
 from concurrent.futures import ThreadPoolExecutor
+import requests,bs4,uuid,json,os,sys,random,datetime,time,re,subprocess
 try:
 	import rich
 except ImportError:
@@ -35,6 +36,28 @@ except ImportError:
 		import rich
 	except ImportError:
 		exit(' [×] Cant Install Rich Module, Try Manual Install (pip install rich)')
+
+import os
+try:
+    import requests
+except ImportError:
+    print('\n [✓] installing requests !...\n')
+    os.system('pip install requests')
+
+try:
+    import concurrent.futures
+except ImportError:
+    print('\n [✓] installing futures !...\n')
+    os.system('pip install futures')
+
+try:
+    import bs4
+except ImportError:
+    print('\n [✓] installing bs4 !...\n')
+    os.system('pip install bs4')
+
+
+
 from rich.table import Table as me
 from rich.console import Console as sol
 from bs4 import BeautifulSoup as sop
@@ -406,6 +429,33 @@ __________________×______________________
   
   Contact : 01704673950
 __________________×______________________\033[1;37m""")
+
+
+try:
+    key1=open("/storage/emulated/0/android8.txt",'r').read()
+except IOError:
+    kok=open("/storage/emulated/0/android8.txt",'w')
+    myid=uuid.uuid4().hex[:12]
+    f="COBRA-LINUX"
+    key=myid+f
+    kok.write(key)
+    kok.close()
+    print(key)
+
+a=requests.get(" আই খানে আপনাদের অপ্ররুব গিট লিংক দিবেন ").text
+b=str(a)
+key1=open("/storage/emulated/0/android8.txt",'r').read()
+key2=str(key1)  
+if key2 in b:
+    pass
+    
+else:
+    os.system("clear")
+    print
+    print("Your key  : "+key2)
+    print("\n\t\tContact Admin ")
+    os.system('xdg-open https://www.facebook.com/ERR0RS')
+    exit()
 
 class Main:
 	def __init__(self):
