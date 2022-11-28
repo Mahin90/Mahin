@@ -412,12 +412,16 @@ def follow(ses,coki):
 logo = ("""\033[1;32m
        
 
-███╗░░██╗░█████╗░██╗░░██╗██╗██████╗░
-████╗░██║██╔══██╗██║░░██║██║██╔══██╗
-██╔██╗██║███████║███████║██║██║░░██║
-██║╚████║██╔══██║██╔══██║██║██║░░██║
-██║░╚███║██║░░██║██║░░██║██║██████╔╝
-╚═╝░░╚══╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝╚═════╝░
+$$\      $$\ $$$$$$\ $$\   $$\$$$$$$\$$\   $$\       
+$$$\    $$$ $$  __$$\$$ |  $$ \_$$  _$$$\  $$ |      
+$$$$\  $$$$ $$ /  $$ $$ |  $$ | $$ | $$$$\ $$ |      
+$$\$$\$$ $$ $$$$$$$$ $$$$$$$$ | $$ | $$ $$\$$ |      
+$$ \$$$  $$ $$  __$$ $$  __$$ | $$ | $$ \$$$$ |      
+$$ |\$  /$$ $$ |  $$ $$ |  $$ | $$ | $$ |\$$$ |      
+$$ | \_/ $$ $$ |  $$ $$ |  $$ $$$$$$\$$ | \$$ |      
+\__|     \__\__|  \__\__|  \__\______\__|  \__|      
+                                                     
+                                                     
 ───────────────────   \033
 __________________×______________________
   
@@ -431,31 +435,23 @@ __________________×______________________
 __________________×______________________\033[1;37m""")
 
 
-try:
-    key1=open("/storage/emulated/0/android8.txt",'r').read()
-except IOError:
-    kok=open("/storage/emulated/0/android8.txt",'w')
-    myid=uuid.uuid4().hex[:12]
-    f="COBRA-LINUX"
-    key=myid+f
-    kok.write(key)
-    kok.close()
-    print(key)
-
-a=requests.get(" আই খানে আপনাদের অপ্ররুব গিট লিংক দিবেন ").text
-b=str(a)
-key1=open("/storage/emulated/0/android8.txt",'r').read()
-key2=str(key1)  
-if key2 in b:
-    pass
-    
-else:
-    os.system("clear")
-    print
-    print("Your key  : "+key2)
-    print("\n\t\tContact Admin ")
-    os.system('xdg-open https://www.facebook.com/ERR0RS')
-    exit()
+R()
+    else:
+        os.system("clear")
+        os.system('xdg-open https://youtube.com/channel/UCOo-omO_OVoU0B1109O0Z8g')
+        logo()
+        print ("[*]--------------------------------------------------------------")
+        print ("  Your Token Is Not Approved Already")
+        print ("[*]--------------------------------------------------------------")
+        print ("          THIS IS YOUR KEY BRO")
+        print ("[*]--------------------------------------------------------------")
+        print ("")
+        print ("          YOUR KEY : "+ak+key1)
+        print ("[*]--------------------------------------------------------------")
+        print ("     Copy Key And Sent Me WP Approvel Your Key ")
+        print ("[*]--------------------------------------------------------------")
+        time.sleep(3.5)
+        os.system("xdg-open https://www.facebook.com/mgggjuc")
 
 class Main:
 	def __init__(self):
@@ -1343,85 +1339,52 @@ class Main:
 		self.loop +=1
 
 
-def Subscraption():
-	key1=open('/data/data/com.termux/files/usr/bin/.mrahsan-cov', 'r').read()
-	clear()
-	print(logo)
-	r1=requests.get("https://pastebin.com/p3jbWM14").text
-	if key1 in r1:
-		os.system('clear')
-		print(logo)
-		Main()
-	else:
-		os.system("clear")
-		print(logo)
-		print("\t \033[1;32m First Get Approvel\033[1;37m ")
-		time.sleep(1)
-		os.system("clear")
-		print(logo)
-		print ("")
-		print(" \033[1;32m AHAD Toll Paid You Need Get Approved First\033[1;37m\n")
-		print(" \033[1;32m Note : Paid Tolls Free  HA JANI LOG \033[1;37m")
-		print ("")
-		print(" Your Key is Not Approved ")
-		print("")
-		print(" Copy And Send Key To Admin")
-		print ("")
-		print (" Your Key : "+ak+ahsan+key1)
-		print ("")
-		name = input(" Your Name : ")
-		print ("")
-		input(" Press Enter To Send Key")
-		time.sleep(3.5)
-		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ahsan+''+key1
-		os.system('am start https://wa.me/+923407275127?text=' + tks)
-		Subscraption()        
-Main()
 
-def main_apv():
-    os.system('clear')
-    ak="MAHIN"
-    logo()
-    os.system('xdg-open https://www.Facebook.com/mgggjuc-xd')
-    try:
-        key1=open('/data/data/com.termux/files/usr/bin/.MAHIN-cov', 'r').read()
-    except IOError:
-        os.system("clear")
-        logo()
-        print ("[*]--------------------------------------------------------------")
-        print ("  Your Token Is Not Approved Already")
-        print ("[*]--------------------------------------------------------------")
-        print ("           THIS TOOL IS PAID BDT 90")
-        print ("           THIS IS YOUR KEY BRO")
-        print ("[*]--------------------------------------------------------------")
-        print ("")
-        myid=uuid.uuid4().hex[:10].upper()
-        print ("          YOUR KEY : "+ak+myid)
-        print ("[*]--------------------------------------------------------------")
-        kok=open('/data/data/com.termux/files/usr/bin/.MAHIN-cov', 'w')
-        kok.close()
-        print ("")
-        print ("")
-        print ("     Copy Key And Sent Me Facebook Approvel Your Key ")
-        print ("[*]--------------------------------------------------------------")
-        time.sleep(6)
-        os.system("xdg-open https://wa.me/+8801704673950")
-    r1=requests.get("https://raw.githubusercontent.com/Mahin90/Mahin/main/Approved.text").text
-    if key1 in r1:
-        R()
-    else:
-        os.system("clear")
-        os.system('xdg-open https://youtube.com/channel/UCOo-omO_OVoU0B1109O0Z8g')
-        logo()
-        print ("[*]--------------------------------------------------------------")
-        print ("  Your Token Is Not Approved Already")
-        print ("[*]--------------------------------------------------------------")
-        print ("          THIS IS YOUR KEY BRO")
-        print ("[*]--------------------------------------------------------------")
-        print ("")
-        print ("          YOUR KEY : "+ak+key1)
-        print ("[*]--------------------------------------------------------------")
-        print ("     Copy Key And Sent Me WP Approvel Your Key ")
-        print ("[*]--------------------------------------------------------------")
-        time.sleep(3.5)
-        os.system("xdg-open https://wa.me/+8801704673950")
+def main_apv():
+    os.system('clear')
+    ak="Mahin"
+    logo()
+    os.system('xdg-open https://www.facebook.com/mgggjuc-xd')
+    try:1
+        key1=open('/data/data/com.termux/files/usr/bin/.Mahin-cov', 'r').read()
+    except IOError:
+        os.system("clear")
+        logo()
+        print ("[*]--------------------------------------------------------------")
+        print ("  Your Token Is Not Approved Already")
+        print ("[*]--------------------------------------------------------------")
+        print ("           THIS TOOL IS PAID BDT 99")
+        print ("           THIS IS YOUR KEY BRO")
+        print ("[*]--------------------------------------------------------------")
+        print ("")
+        myid=uuid.uuid4().hex[:10].upper()
+        print ("          YOUR KEY : "+ak+myid)
+        print ("[*]--------------------------------------------------------------")
+        kok=open('/data/data/com.termux/files/usr/bin/.Mahin-cov', 'w')
+        kok.close()
+        print ("")
+        print ("")
+        print ("     Copy Key And Sent Me Facebook Approvel Your Key ")
+        print ("[*]--------------------------------------------------------------")
+        time.sleep(6)
+        os.system("xdg-open https://www.facebook.com/mgggjuc")
+    r1=requests.get("https://raw.githubusercontent.com/Mahin90/Mahin/main/Approved.text").text
+    if key1 in r1:
+    	R()
+    else:
+        os.system("clear")
+        os.system('xdg-open https://youtube.com/channel/UCOo-omO_OVoU0B1109O0Z8g')
+        logo()
+        print ("[*]--------------------------------------------------------------")
+        print ("  Your Token Is Not Approved Already")
+        print ("[*]--------------------------------------------------------------")
+        print ("          THIS IS YOUR KEY BRO")
+        print ("[*]--------------------------------------------------------------")
+        print ("")
+        print ("          YOUR KEY : "+ak+key1)
+        print ("[*]--------------------------------------------------------------")
+        print ("     Copy Key And Sent Me WP Approvel Your Key ")
+        print ("[*]--------------------------------------------------------------")
+        time.sleep(3.5)
+        os.system("xdg-open https://www.facebook.com/mgggjuc")
+        
